@@ -79,11 +79,16 @@ nav {
 }
 
 main {
-    margin: 15px;
+    margin: 5rem 8rem;
+	padding-bottom: 2rem;
 }
 
 h1, h2 {
     color: white;
+}
+
+p {
+	font-size: 1.25rem;
 }
 
 footer {
@@ -99,7 +104,7 @@ footer {
 
 
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
 	
 	nav {
 		flex-direction: column;
@@ -141,6 +146,10 @@ footer {
 	
 	.toggle-button {
 		display: flex;
+	}
+	
+	main {
+    	margin: 2rem 1rem;
 	}
 	
 }
